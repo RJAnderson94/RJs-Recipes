@@ -14,18 +14,41 @@ body {
 
 #index-header {
     color: #ff4000;
-    font-size: 5em;
-    margin-top: 1.4em;
+    font-size: 5.2em;
+    margin-top: 0.8em;
 }
 
 #index-tag {
     color: #ff4000;
     font-size: 2.25em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#index-tag-two {
+    color: #ff4000;
+    font-size: 1.6em;
+    padding-bottom: 1.5em;
 }
 
 #index-cocktail {
-    background: 
+    border: 0.2em solid #f2f2f2;
+    height: 15em;
+}
+
+#index-food{
+    border: 0.2em solid #f2f2f2;
+    height: 15em;
+}
+
+.menu-link {
+    color: #ff4000;
+    font-size: 2.2em;
+    margin-top: 1em;
+}
+
+.menu-link:hover {
+    color: #f2f2f2;
+    text-decoration: none;
 }
 
 /*---------- Navbar */
@@ -36,16 +59,21 @@ body {
 }
 
 .nav-link:hover {
-    color: #ffffff;
+    color: #f2f2f2;
 }
 
 .nav {
-    border-bottom: 0.15em solid #ff4000;
+    border-bottom: 0.15em solid #f2f2f2;
+}
+
+.nav-break {
+    color: #ff4000;
 }
 /*---------- Footer */
 
 footer {
-    height: 5rem;
+    height: 4rem;
+    margin-top: 0.5rem;
 }
 
 .list-inline {
@@ -54,10 +82,10 @@ footer {
 
 .social-icons li a i{
     color: #ff4000;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 0.7rem;
 }
 
 .social-icons li a i:hover {
-    color: #ffffff;
+    color: #f2f2f2;
 }
