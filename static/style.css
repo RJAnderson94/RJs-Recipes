@@ -7,8 +7,13 @@ body {
 }
 /*---------- Navbar */
 
-#nav-link {
+.nav-link {
     color: #ff4000;
+    font-size: 1.7em;
+}
+
+.nav-link:hover {
+    color: #ffffff;
 }
 
 /*---------- Footer */
