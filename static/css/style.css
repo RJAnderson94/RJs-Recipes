@@ -5,6 +5,29 @@ body {
     font-family: 'Oleo Script Swash Caps', cursive;
     background-color: #262626;
 }
+
+/*---------- index.html */
+
+.container{
+    text-align: center;
+}
+
+#index-header {
+    color: #ff4000;
+    font-size: 5em;
+    margin-top: 1.4em;
+}
+
+#index-tag {
+    color: #ff4000;
+    font-size: 2.25em;
+    margin-bottom: 1.5em;
+}
+
+#index-cocktail {
+    background: 
+}
+
 /*---------- Navbar */
 
 .nav-link {
@@ -16,6 +39,9 @@ body {
     color: #ffffff;
 }
 
+.nav {
+    border-bottom: 0.15em solid #ff4000;
+}
 /*---------- Footer */
 
 footer {

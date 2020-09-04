@@ -1,1 +1,20 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 id="index-header">RJ's Recipes</h1>
+      <p id="index-tag">Welcome to RJ's Recipes, an online guide to your favourite cocktails and meals.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6" id="index-cocktail">
+        <a class="nav-link" href="#">Cocktails</a>
+    </div>
+    <div class="col-md-6" id="index-food">
+        <a class="nav-link" href="#">Food</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
