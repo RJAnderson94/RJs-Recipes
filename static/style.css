@@ -1,11 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+/*---------- Body & Font */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 
 body {
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
     background-color: #262626;
+}
+/*---------- Navbar */
+
+#nav-link {
     color: #ff4000;
 }
 
-.nav-link {
-    background-color: #ff4000;
+/*---------- Footer */
+
+footer {
+    height: 5rem;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+.social-icons li a i{
+    color: #ff4000;
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+}
+
+.social-icons li a i:hover {
+    color: #ffffff;
 }
