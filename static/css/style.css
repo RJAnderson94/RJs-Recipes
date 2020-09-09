@@ -81,6 +81,19 @@ body {
     text-decoration: none;
 }
 
+/*---------- Food Page */
+
+#filter-heading {
+    color: #ff4000;
+}
+
+#dropdownMenuButton {
+    color: #ff4000;
+    background-color: #f2f2f2;
+}
+
+
+
 /*---------- Navbar */
 
 .nav-link {
