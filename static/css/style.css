@@ -30,19 +30,44 @@ body {
     padding-bottom: 1.5em;
 }
 
+.card-img-top {
+    height: 13.5rem;
+    margin-bottom: 0;
+}
+
+.card-body {
+    height: 5.2rem;
+}
 
 #index-cocktail {
-    background: url("../static/images/Cocktail2.jpg") no-repeat fixed;
-    height: 15rem;
-    width: 100%;
-    position: relative;
-    align-content: center;
+    background-color: #f2f2f2;
     border: solid 0.2em #f2f2f2;
 }
 
-#index-food{
-    border: 0.2em solid #f2f2f2;
-    height: 15em;
+#index-cocktail-link {
+    color: #ff4000;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#index-cocktail-link:hover {
+    color: #262626;
+}
+
+#index-food {
+    background-color: #f2f2f2;
+    border: solid 0.2em #f2f2f2;
+    width: 100%;
+}
+
+#index-food-link {
+    color: #ff4000;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+#index-food-link:hover {
+    color: #262626;
 }
 
 .menu-link {

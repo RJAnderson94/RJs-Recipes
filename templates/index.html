@@ -9,13 +9,23 @@
     </div>
   </div>
   <div class="row index-menu">
-    <div class="col-md-5" id="index-cocktail">
-        <a class="menu-link" href="{{ url_for('cocktail_home') }}">Cocktails</a>
+    <div class="col-md-5">
+        <div class="card" id="index-cocktail">
+            <img src="..." class="card-img-top" alt="Cocktail Image">
+            <div class="card-body">
+                <a href="{{ url_for('cocktail_home') }}" id="index-cocktail-link">Cocktails</a>
+            </div>
+        </div>
     </div>
     <div class="col-md-2">
     </div>
-    <div class="col-md-5" id="index-food">
-        <a class="menu-link" href="{{ url_for('food_home') }}">Food</a>
+    <div class="col-md-5">
+        <div class="card" id="index-food">
+            <img src="../static/images/Food4.jpg" class="card-img-top" alt="Food Image">
+            <div class="card-body">
+                <a href="{{ url_for('food_home') }}" id="index-food-link">Food</a>
+            </div>
+        </div>
     </div>
   </div>
 </div>
